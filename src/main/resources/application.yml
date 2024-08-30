@@ -1,0 +1,37 @@
+spring:
+  profiles:
+    active: dev # Default profile
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+dev:
+  datasource:
+    url: jdbc:mysql://localhost:3306/testdb_spring
+    username: root
+    password: ${DB_PASSWORD_DEV} # Externalized via environment variable or VM argument
+aws:
+  s3:
+    bucket-name: Test123
+    region: Test123
+    access-key: Test123
+    secret-key: Test123
+logging:
+  file:
+    path: ./logs  
+temp:
+  folder:
+    path: ./temp
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+prod:
+  datasource:
+    url: jdbc:mysql://mysqldemo.cbw2guwqamoh.eu-north-1.rds.amazonaws.com:3306/testdb?useSSL=false&serverTimezone=UTC
+    username: root
+    password: ${DB_PASSWORD_PROD} # Externalized via environment variable or VM argument
+
+    

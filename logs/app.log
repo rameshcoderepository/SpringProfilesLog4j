@@ -1,0 +1,23 @@
+2024-08-30 20:34:18 INFO  SpringBootProfilesProdApplication:50 - Starting SpringBootProfilesProdApplication using Java 17.0.9 with PID 12108 (C:\Eclipse - Workspace\SpringBootProfilesProd_withouts3\target\classes started by rames in C:\Eclipse - Workspace\SpringBootProfilesProd_withouts3)
+2024-08-30 20:34:18 INFO  SpringBootProfilesProdApplication:660 - The following 1 profile is active: "dev"
+2024-08-30 20:34:18 INFO  DevToolsPropertyDefaultsPostProcessor:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-30 20:34:18 INFO  DevToolsPropertyDefaultsPostProcessor:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-30 20:34:20 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-30 20:34:21 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 116 ms. Found 1 JPA repository interface.
+2024-08-30 20:34:23 INFO  TomcatWebServer:109 - Tomcat initialized with port 8080 (http)
+2024-08-30 20:34:23 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-30 20:34:23 INFO  StandardService:173 - Starting service [Tomcat]
+2024-08-30 20:34:23 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-30 20:34:23 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2024-08-30 20:34:23 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 4637 ms
+2024-08-30 20:34:25 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-30 20:34:25 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-08-30 20:34:25 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-30 20:34:26 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-30 20:34:28 INFO  JtaPlatformInitiator:58 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-30 20:34:28 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-30 20:34:29 WARN  JpaBaseConfiguration$JpaWebConfiguration:232 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-30 20:34:31 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-08-30 20:34:31 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-30 20:34:31 INFO  TomcatWebServer:241 - Tomcat started on port 8080 (http) with context path ''
+2024-08-30 20:34:31 INFO  SpringBootProfilesProdApplication:56 - Started SpringBootProfilesProdApplication in 13.613 seconds (process running for 15.826)
